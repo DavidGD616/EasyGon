@@ -211,4 +211,17 @@ figure img{
     grid-template-rows: repeat(2, auto);
     padding-left: 20px;
     padding-top: 16px;
+    grid-gap: 20px;
+    height: 30vh;
+}
+
+.informacion figure{
+    background-color: #424242;
+    height: 60%;
+    width: auto;
+}
+
+.informacion figure img{
+    height: 100%;
+    width: auto;
 }
