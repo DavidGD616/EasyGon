@@ -1,0 +1,175 @@
+body{
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+}
+
+figure{
+    margin: 0;
+}
+
+figure img{
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    box-shadow: 3px 14px 16px -15px rgba(0,0,0,0.15);
+}
+
+.containerHeader{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 150px 1fr 190px;
+    position: relative;
+}
+
+
+.col-1,
+.col-2,
+.col-3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.col-1{
+    justify-content: center;
+}
+
+.col-2 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.col-2 a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.col-3 ul{
+    /* display: flex; */
+    list-style: none;
+}
+
+.col-3 a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    display: grid;
+    align-items: center;  
+    height: 70px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.main-footer {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: #1b2127; */
+    box-shadow: -1px -14px 16px -15px rgba(0,0,0,0.15);
+    height: 150px;
+}
+
+.acerca-de{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.acerca-de a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #424242;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 400px 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: #424242;
+}
+
+.bullburger div p{
+    color: #fff;
+}
+
+.bullburger div h2{
+    color: #fff;
+}
+
+.fa-whatsapp{
+    font-size: 50px;
+    text-align: center;
+}
+
+.seccion-1 figure{
+    height: 100%;
+    width: auto;
+}
+
+.seccion-1 figure img{
+    height: 200px;
+    width: auto;
+}
+
+.font{
+    font-size: 12px;
+}
+
+.font strong{
+    color: #e74c3c;
+}
+
+.horario{
+    font-weight: bold;
+    color: #fff !important;
+    font-size: 14px;
+}
+
+
+.infoGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    grid-gap: 10px;
+    background: #b2bec3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.bullburger{
+    background: #424242;
+}
+
+.informacion{
+    background: #b2bec3;
+}
+
